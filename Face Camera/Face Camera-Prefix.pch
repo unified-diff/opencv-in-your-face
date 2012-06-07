@@ -1,0 +1,11 @@
+
+#ifdef __cplusplus
+#import "opencv2/opencv.hpp"
+#endif
+
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import "../Libraries/CocoaAsyncSocket/GCD/GCDAsyncSocket.h"
+#import "../iOS Camera/iOSCamera.h"
+#endif

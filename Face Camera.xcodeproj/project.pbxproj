@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA95A1B7157ECDEA00B4EAD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1B6157ECDEA00B4EAD7 /* Cocoa.framework */; };
+		DA95A1C3157ECDEA00B4EAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1C2157ECDEA00B4EAD7 /* main.m */; };
+		DA95A1CA157ECDEA00B4EAD7 /* FaceCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1C9157ECDEA00B4EAD7 /* FaceCameraAppDelegate.m */; };
+		DA95A1E2157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1DE157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m */; };
+		DA95A1E4157ECED500B4EAD7 /* iOSCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1E1157ECED500B4EAD7 /* iOSCameraView.m */; };
+		DA95A1E7157ECEFE00B4EAD7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1E6157ECEFE00B4EAD7 /* GCDAsyncSocket.m */; };
+		DA95A1EA157ECF4300B4EAD7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1E9157ECF4300B4EAD7 /* OpenGL.framework */; };
+		DA95A1EC157ECF4900B4EAD7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1EB157ECF4900B4EAD7 /* Security.framework */; };
+		DA95A1F2157ED09D00B4EAD7 /* FaceCamera.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA95A1F1157ED09D00B4EAD7 /* FaceCamera.xib */; };
+		DA95A1F9157ED2AD00B4EAD7 /* FindFaces.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1F8157ED2AD00B4EAD7 /* FindFaces.mm */; };
+		DA95A1FB157ED30300B4EAD7 /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1FA157ED30300B4EAD7 /* libopencv_core.dylib */; };
+		DA95A1FD157ED30D00B4EAD7 /* libopencv_objdetect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1FC157ED30D00B4EAD7 /* libopencv_objdetect.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA95A1B2157ECDEA00B4EAD7 /* Face Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA95A1B6157ECDEA00B4EAD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA95A1B9157ECDEA00B4EAD7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA95A1BA157ECDEA00B4EAD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA95A1BB157ECDEA00B4EAD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA95A1BE157ECDEA00B4EAD7 /* Face Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Face Camera-Info.plist"; sourceTree = "<group>"; };
+		DA95A1C2157ECDEA00B4EAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA95A1C4157ECDEA00B4EAD7 /* Face Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Face Camera-Prefix.pch"; sourceTree = "<group>"; };
+		DA95A1C8157ECDEA00B4EAD7 /* FaceCameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceCameraAppDelegate.h; sourceTree = "<group>"; };
+		DA95A1C9157ECDEA00B4EAD7 /* FaceCameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceCameraAppDelegate.m; sourceTree = "<group>"; };
+		DA95A1DD157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCameraViewerAppDelegate.h; path = "iOS Camera Viewer/iOSCameraViewerAppDelegate.h"; sourceTree = "<group>"; };
+		DA95A1DE157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCameraViewerAppDelegate.m; path = "iOS Camera Viewer/iOSCameraViewerAppDelegate.m"; sourceTree = "<group>"; };
+		DA95A1E0157ECED500B4EAD7 /* iOSCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCameraView.h; path = "iOS Camera Viewer/iOSCameraView.h"; sourceTree = "<group>"; };
+		DA95A1E1157ECED500B4EAD7 /* iOSCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCameraView.m; path = "iOS Camera Viewer/iOSCameraView.m"; sourceTree = "<group>"; };
+		DA95A1E6157ECEFE00B4EAD7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Libraries/CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DA95A1E9157ECF4300B4EAD7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DA95A1EB157ECF4900B4EAD7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DA95A1F1157ED09D00B4EAD7 /* FaceCamera.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceCamera.xib; sourceTree = "<group>"; };
+		DA95A1F7157ED2AD00B4EAD7 /* FindFaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFaces.h; sourceTree = "<group>"; };
+		DA95A1F8157ED2AD00B4EAD7 /* FindFaces.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FindFaces.mm; sourceTree = "<group>"; };
+		DA95A1FA157ED30300B4EAD7 /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = usr/local/lib/libopencv_core.dylib; sourceTree = SDKROOT; };
+		DA95A1FC157ED30D00B4EAD7 /* libopencv_objdetect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.dylib; path = usr/local/lib/libopencv_objdetect.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA95A1AF157ECDEA00B4EAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A1FD157ED30D00B4EAD7 /* libopencv_objdetect.dylib in Frameworks */,
+				DA95A1FB157ED30300B4EAD7 /* libopencv_core.dylib in Frameworks */,
+				DA95A1EC157ECF4900B4EAD7 /* Security.framework in Frameworks */,
+				DA95A1EA157ECF4300B4EAD7 /* OpenGL.framework in Frameworks */,
+				DA95A1B7157ECDEA00B4EAD7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA95A1A7157ECDEA00B4EAD7 = {
+			isa = PBXGroup;
+			children = (
+				DA95A1BC157ECDEA00B4EAD7 /* Face Camera */,
+				DA95A1E5157ECEDC00B4EAD7 /* iOS Camera Viewer */,
+				DA95A1B5157ECDEA00B4EAD7 /* Frameworks */,
+				DA95A1B3157ECDEA00B4EAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA95A1B3157ECDEA00B4EAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1B2157ECDEA00B4EAD7 /* Face Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA95A1B5157ECDEA00B4EAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A203157ED32F00B4EAD7 /* OpenCV */,
+				DA95A1EB157ECF4900B4EAD7 /* Security.framework */,
+				DA95A1E9157ECF4300B4EAD7 /* OpenGL.framework */,
+				DA95A1E8157ECF0800B4EAD7 /* CocoaAsyncSocket */,
+				DA95A1B6157ECDEA00B4EAD7 /* Cocoa.framework */,
+				DA95A1B9157ECDEA00B4EAD7 /* AppKit.framework */,
+				DA95A1BA157ECDEA00B4EAD7 /* CoreData.framework */,
+				DA95A1BB157ECDEA00B4EAD7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA95A1BC157ECDEA00B4EAD7 /* Face Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1BD157ECDEA00B4EAD7 /* Supporting Files */,
+				DA95A1F1157ED09D00B4EAD7 /* FaceCamera.xib */,
+				DA95A1C8157ECDEA00B4EAD7 /* FaceCameraAppDelegate.h */,
+				DA95A1C9157ECDEA00B4EAD7 /* FaceCameraAppDelegate.m */,
+				DA95A1F7157ED2AD00B4EAD7 /* FindFaces.h */,
+				DA95A1F8157ED2AD00B4EAD7 /* FindFaces.mm */,
+			);
+			path = "Face Camera";
+			sourceTree = "<group>";
+		};
+		DA95A1BD157ECDEA00B4EAD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1C2157ECDEA00B4EAD7 /* main.m */,
+				DA95A1C4157ECDEA00B4EAD7 /* Face Camera-Prefix.pch */,
+				DA95A1BE157ECDEA00B4EAD7 /* Face Camera-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA95A1E5157ECEDC00B4EAD7 /* iOS Camera Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1DD157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.h */,
+				DA95A1DE157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m */,
+				DA95A1E0157ECED500B4EAD7 /* iOSCameraView.h */,
+				DA95A1E1157ECED500B4EAD7 /* iOSCameraView.m */,
+			);
+			name = "iOS Camera Viewer";
+			sourceTree = "<group>";
+		};
+		DA95A1E8157ECF0800B4EAD7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1E6157ECEFE00B4EAD7 /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		DA95A203157ED32F00B4EAD7 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1FC157ED30D00B4EAD7 /* libopencv_objdetect.dylib */,
+				DA95A1FA157ED30300B4EAD7 /* libopencv_core.dylib */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA95A1B1157ECDEA00B4EAD7 /* Face Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA95A1D0157ECDEA00B4EAD7 /* Build configuration list for PBXNativeTarget "Face Camera" */;
+			buildPhases = (
+				DA95A1AE157ECDEA00B4EAD7 /* Sources */,
+				DA95A1AF157ECDEA00B4EAD7 /* Frameworks */,
+				DA95A1B0157ECDEA00B4EAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Face Camera";
+			productName = "Face Camera";
+			productReference = DA95A1B2157ECDEA00B4EAD7 /* Face Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA95A1A9157ECDEA00B4EAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FaceCamera;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA95A1AC157ECDEA00B4EAD7 /* Build configuration list for PBXProject "Face Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA95A1A7157ECDEA00B4EAD7;
+			productRefGroup = DA95A1B3157ECDEA00B4EAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA95A1B1157ECDEA00B4EAD7 /* Face Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA95A1B0157ECDEA00B4EAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A1F2157ED09D00B4EAD7 /* FaceCamera.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA95A1AE157ECDEA00B4EAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A1C3157ECDEA00B4EAD7 /* main.m in Sources */,
+				DA95A1CA157ECDEA00B4EAD7 /* FaceCameraAppDelegate.m in Sources */,
+				DA95A1E2157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m in Sources */,
+				DA95A1E4157ECED500B4EAD7 /* iOSCameraView.m in Sources */,
+				DA95A1E7157ECEFE00B4EAD7 /* GCDAsyncSocket.m in Sources */,
+				DA95A1F9157ED2AD00B4EAD7 /* FindFaces.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA95A1CE157ECDEA00B4EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA95A1CF157ECDEA00B4EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA95A1D1157ECDEA00B4EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Face Camera/Face Camera-Prefix.pch";
+				INFOPLIST_FILE = "Face Camera/Face Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA95A1D2157ECDEA00B4EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Face Camera/Face Camera-Prefix.pch";
+				INFOPLIST_FILE = "Face Camera/Face Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA95A1AC157ECDEA00B4EAD7 /* Build configuration list for PBXProject "Face Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95A1CE157ECDEA00B4EAD7 /* Debug */,
+				DA95A1CF157ECDEA00B4EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA95A1D0157ECDEA00B4EAD7 /* Build configuration list for PBXNativeTarget "Face Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95A1D1157ECDEA00B4EAD7 /* Debug */,
+				DA95A1D2157ECDEA00B4EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA95A1A9157ECDEA00B4EAD7 /* Project object */;
+}

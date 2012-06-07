@@ -1,0 +1,9 @@
+#ifdef __OBJC__
+
+#import <Cocoa/Cocoa.h>
+
+#import "../Libraries/CocoaAsyncSocket/GCD/GCDAsyncSocket.h"
+
+#import "../iOS Camera/iOSCamera.h"
+
+#endif

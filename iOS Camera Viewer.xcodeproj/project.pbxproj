@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA95A142157EC25100B4EAD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A141157EC25100B4EAD7 /* Cocoa.framework */; };
+		DA95A14E157EC25100B4EAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A14D157EC25100B4EAD7 /* main.m */; };
+		DA95A155157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A154157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.m */; };
+		DA95A165157EC4C300B4EAD7 /* iOSCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A164157EC4C300B4EAD7 /* iOSCameraView.m */; };
+		DA95A167157EC4E300B4EAD7 /* iOSCameraViewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA95A166157EC4E300B4EAD7 /* iOSCameraViewer.xib */; };
+		DA95A16D157EC74F00B4EAD7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A16C157EC74F00B4EAD7 /* GCDAsyncSocket.m */; };
+		DA95A170157EC78300B4EAD7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A16F157EC78300B4EAD7 /* Security.framework */; };
+		DA95A172157EC85600B4EAD7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A171157EC85600B4EAD7 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA95A13D157EC25100B4EAD7 /* iOS Camera Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Camera Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA95A141157EC25100B4EAD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA95A144157EC25100B4EAD7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA95A146157EC25100B4EAD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA95A149157EC25100B4EAD7 /* iOS Camera Viewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Camera Viewer-Info.plist"; sourceTree = "<group>"; };
+		DA95A14D157EC25100B4EAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA95A14F157EC25100B4EAD7 /* iOS Camera Viewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Camera Viewer-Prefix.pch"; sourceTree = "<group>"; };
+		DA95A153157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCameraViewerAppDelegate.h; sourceTree = "<group>"; };
+		DA95A154157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCameraViewerAppDelegate.m; sourceTree = "<group>"; };
+		DA95A163157EC4C200B4EAD7 /* iOSCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSCameraView.h; sourceTree = "<group>"; };
+		DA95A164157EC4C300B4EAD7 /* iOSCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCameraView.m; sourceTree = "<group>"; };
+		DA95A166157EC4E300B4EAD7 /* iOSCameraViewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iOSCameraViewer.xib; sourceTree = "<group>"; };
+		DA95A16C157EC74F00B4EAD7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Libraries/CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DA95A16F157EC78300B4EAD7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DA95A171157EC85600B4EAD7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA95A13A157EC25100B4EAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A172157EC85600B4EAD7 /* OpenGL.framework in Frameworks */,
+				DA95A170157EC78300B4EAD7 /* Security.framework in Frameworks */,
+				DA95A142157EC25100B4EAD7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA95A132157EC25100B4EAD7 = {
+			isa = PBXGroup;
+			children = (
+				DA95A147157EC25100B4EAD7 /* iOS Camera Viewer */,
+				DA95A140157EC25100B4EAD7 /* Frameworks */,
+				DA95A13E157EC25100B4EAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA95A13E157EC25100B4EAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A13D157EC25100B4EAD7 /* iOS Camera Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA95A140157EC25100B4EAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A171157EC85600B4EAD7 /* OpenGL.framework */,
+				DA95A16F157EC78300B4EAD7 /* Security.framework */,
+				DA95A16E157EC76200B4EAD7 /* CocoaAsyncSocket */,
+				DA95A141157EC25100B4EAD7 /* Cocoa.framework */,
+				DA95A144157EC25100B4EAD7 /* AppKit.framework */,
+				DA95A146157EC25100B4EAD7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA95A147157EC25100B4EAD7 /* iOS Camera Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A148157EC25100B4EAD7 /* Supporting Files */,
+				DA95A153157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.h */,
+				DA95A154157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.m */,
+				DA95A166157EC4E300B4EAD7 /* iOSCameraViewer.xib */,
+				DA95A163157EC4C200B4EAD7 /* iOSCameraView.h */,
+				DA95A164157EC4C300B4EAD7 /* iOSCameraView.m */,
+			);
+			path = "iOS Camera Viewer";
+			sourceTree = "<group>";
+		};
+		DA95A148157EC25100B4EAD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A14D157EC25100B4EAD7 /* main.m */,
+				DA95A14F157EC25100B4EAD7 /* iOS Camera Viewer-Prefix.pch */,
+				DA95A149157EC25100B4EAD7 /* iOS Camera Viewer-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA95A16E157EC76200B4EAD7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A16C157EC74F00B4EAD7 /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA95A13C157EC25100B4EAD7 /* iOS Camera Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA95A15B157EC25100B4EAD7 /* Build configuration list for PBXNativeTarget "iOS Camera Viewer" */;
+			buildPhases = (
+				DA95A139157EC25100B4EAD7 /* Sources */,
+				DA95A13A157EC25100B4EAD7 /* Frameworks */,
+				DA95A13B157EC25100B4EAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Camera Viewer";
+			productName = "iOS Camera Viewer";
+			productReference = DA95A13D157EC25100B4EAD7 /* iOS Camera Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA95A134157EC25100B4EAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iOSCameraViewer;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA95A137157EC25100B4EAD7 /* Build configuration list for PBXProject "iOS Camera Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA95A132157EC25100B4EAD7;
+			productRefGroup = DA95A13E157EC25100B4EAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA95A13C157EC25100B4EAD7 /* iOS Camera Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA95A13B157EC25100B4EAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A167157EC4E300B4EAD7 /* iOSCameraViewer.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA95A139157EC25100B4EAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A14E157EC25100B4EAD7 /* main.m in Sources */,
+				DA95A155157EC25100B4EAD7 /* iOSCameraViewerAppDelegate.m in Sources */,
+				DA95A165157EC4C300B4EAD7 /* iOSCameraView.m in Sources */,
+				DA95A16D157EC74F00B4EAD7 /* GCDAsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA95A159157EC25100B4EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA95A15A157EC25100B4EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA95A15C157EC25100B4EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Camera Viewer/iOS Camera Viewer-Prefix.pch";
+				INFOPLIST_FILE = "iOS Camera Viewer/iOS Camera Viewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA95A15D157EC25100B4EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Camera Viewer/iOS Camera Viewer-Prefix.pch";
+				INFOPLIST_FILE = "iOS Camera Viewer/iOS Camera Viewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA95A137157EC25100B4EAD7 /* Build configuration list for PBXProject "iOS Camera Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95A159157EC25100B4EAD7 /* Debug */,
+				DA95A15A157EC25100B4EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA95A15B157EC25100B4EAD7 /* Build configuration list for PBXNativeTarget "iOS Camera Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95A15C157EC25100B4EAD7 /* Debug */,
+				DA95A15D157EC25100B4EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA95A134157EC25100B4EAD7 /* Project object */;
+}

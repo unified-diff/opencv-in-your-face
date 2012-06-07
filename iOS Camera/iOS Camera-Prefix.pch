@@ -1,0 +1,13 @@
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+
+#import "../Libraries/CocoaAsyncSocket/GCD/GCDAsyncSocket.h"
+
+#import "iOSCamera.h"
+
+#endif

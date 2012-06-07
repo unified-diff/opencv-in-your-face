@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA95A1B7157ECDEA00B4EAD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1B6157ECDEA00B4EAD7 /* Cocoa.framework */; };
+		DA95A1E2157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1DE157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m */; };
+		DA95A1E4157ECED500B4EAD7 /* iOSCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1E1157ECED500B4EAD7 /* iOSCameraView.m */; };
+		DA95A1E7157ECEFE00B4EAD7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A1E6157ECEFE00B4EAD7 /* GCDAsyncSocket.m */; };
+		DA95A1EA157ECF4300B4EAD7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1E9157ECF4300B4EAD7 /* OpenGL.framework */; };
+		DA95A1EC157ECF4900B4EAD7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1EB157ECF4900B4EAD7 /* Security.framework */; };
+		DA95A1FB157ED30300B4EAD7 /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1FA157ED30300B4EAD7 /* libopencv_core.dylib */; };
+		DA95A1FD157ED30D00B4EAD7 /* libopencv_objdetect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A1FC157ED30D00B4EAD7 /* libopencv_objdetect.dylib */; };
+		DA95A237157EDE0500B4EAD7 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A236157EDE0500B4EAD7 /* libopencv_video.dylib */; };
+		DA95A239157EDF4700B4EAD7 /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA95A238157EDF4700B4EAD7 /* libopencv_imgproc.dylib */; };
+		DA95A247157EE14A00B4EAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A23F157EE14A00B4EAD7 /* main.m */; };
+		DA95A249157EE14A00B4EAD7 /* Optical Flow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA95A242157EE14A00B4EAD7 /* Optical Flow.xib */; };
+		DA95A24A157EE14A00B4EAD7 /* OpticalFlowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95A244157EE14A00B4EAD7 /* OpticalFlowAppDelegate.m */; };
+		DA95A24B157EE14A00B4EAD7 /* TrackMovement.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA95A246157EE14A00B4EAD7 /* TrackMovement.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA95A1B2157ECDEA00B4EAD7 /* Optical Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Optical Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA95A1B6157ECDEA00B4EAD7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA95A1B9157ECDEA00B4EAD7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA95A1BA157ECDEA00B4EAD7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA95A1BB157ECDEA00B4EAD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA95A1DD157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCameraViewerAppDelegate.h; path = "iOS Camera Viewer/iOSCameraViewerAppDelegate.h"; sourceTree = "<group>"; };
+		DA95A1DE157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCameraViewerAppDelegate.m; path = "iOS Camera Viewer/iOSCameraViewerAppDelegate.m"; sourceTree = "<group>"; };
+		DA95A1E0157ECED500B4EAD7 /* iOSCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSCameraView.h; path = "iOS Camera Viewer/iOSCameraView.h"; sourceTree = "<group>"; };
+		DA95A1E1157ECED500B4EAD7 /* iOSCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iOSCameraView.m; path = "iOS Camera Viewer/iOSCameraView.m"; sourceTree = "<group>"; };
+		DA95A1E6157ECEFE00B4EAD7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Libraries/CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DA95A1E9157ECF4300B4EAD7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DA95A1EB157ECF4900B4EAD7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DA95A1FA157ED30300B4EAD7 /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = usr/local/lib/libopencv_core.dylib; sourceTree = SDKROOT; };
+		DA95A1FC157ED30D00B4EAD7 /* libopencv_objdetect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.dylib; path = usr/local/lib/libopencv_objdetect.dylib; sourceTree = SDKROOT; };
+		DA95A236157EDE0500B4EAD7 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = usr/local/lib/libopencv_video.dylib; sourceTree = SDKROOT; };
+		DA95A238157EDF4700B4EAD7 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = usr/local/lib/libopencv_imgproc.dylib; sourceTree = SDKROOT; };
+		DA95A23F157EE14A00B4EAD7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Optical Flow/main.m"; sourceTree = "<group>"; };
+		DA95A240157EE14A00B4EAD7 /* Optical Flow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Optical Flow-Info.plist"; path = "Optical Flow/Optical Flow-Info.plist"; sourceTree = "<group>"; };
+		DA95A241157EE14A00B4EAD7 /* Optical Flow-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Optical Flow-Prefix.pch"; path = "Optical Flow/Optical Flow-Prefix.pch"; sourceTree = "<group>"; };
+		DA95A242157EE14A00B4EAD7 /* Optical Flow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Optical Flow.xib"; path = "Optical Flow/Optical Flow.xib"; sourceTree = "<group>"; };
+		DA95A243157EE14A00B4EAD7 /* OpticalFlowAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpticalFlowAppDelegate.h; path = "Optical Flow/OpticalFlowAppDelegate.h"; sourceTree = "<group>"; };
+		DA95A244157EE14A00B4EAD7 /* OpticalFlowAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpticalFlowAppDelegate.m; path = "Optical Flow/OpticalFlowAppDelegate.m"; sourceTree = "<group>"; };
+		DA95A245157EE14A00B4EAD7 /* TrackMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackMovement.h; path = "Optical Flow/TrackMovement.h"; sourceTree = "<group>"; };
+		DA95A246157EE14A00B4EAD7 /* TrackMovement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TrackMovement.mm; path = "Optical Flow/TrackMovement.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA95A1AF157ECDEA00B4EAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A239157EDF4700B4EAD7 /* libopencv_imgproc.dylib in Frameworks */,
+				DA95A237157EDE0500B4EAD7 /* libopencv_video.dylib in Frameworks */,
+				DA95A1FD157ED30D00B4EAD7 /* libopencv_objdetect.dylib in Frameworks */,
+				DA95A1FB157ED30300B4EAD7 /* libopencv_core.dylib in Frameworks */,
+				DA95A1EC157ECF4900B4EAD7 /* Security.framework in Frameworks */,
+				DA95A1EA157ECF4300B4EAD7 /* OpenGL.framework in Frameworks */,
+				DA95A1B7157ECDEA00B4EAD7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA95A1A7157ECDEA00B4EAD7 = {
+			isa = PBXGroup;
+			children = (
+				DA95A21D157EDA0A00B4EAD7 /* Optical Flow */,
+				DA95A1E5157ECEDC00B4EAD7 /* iOS Camera Viewer */,
+				DA95A1B5157ECDEA00B4EAD7 /* Frameworks */,
+				DA95A1B3157ECDEA00B4EAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA95A1B3157ECDEA00B4EAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1B2157ECDEA00B4EAD7 /* Optical Flow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA95A1B5157ECDEA00B4EAD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A203157ED32F00B4EAD7 /* OpenCV */,
+				DA95A1EB157ECF4900B4EAD7 /* Security.framework */,
+				DA95A1E9157ECF4300B4EAD7 /* OpenGL.framework */,
+				DA95A1E8157ECF0800B4EAD7 /* CocoaAsyncSocket */,
+				DA95A1B6157ECDEA00B4EAD7 /* Cocoa.framework */,
+				DA95A1B9157ECDEA00B4EAD7 /* AppKit.framework */,
+				DA95A1BA157ECDEA00B4EAD7 /* CoreData.framework */,
+				DA95A1BB157ECDEA00B4EAD7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA95A1E5157ECEDC00B4EAD7 /* iOS Camera Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1DD157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.h */,
+				DA95A1DE157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m */,
+				DA95A1E0157ECED500B4EAD7 /* iOSCameraView.h */,
+				DA95A1E1157ECED500B4EAD7 /* iOSCameraView.m */,
+			);
+			name = "iOS Camera Viewer";
+			sourceTree = "<group>";
+		};
+		DA95A1E8157ECF0800B4EAD7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A1E6157ECEFE00B4EAD7 /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		DA95A203157ED32F00B4EAD7 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A238157EDF4700B4EAD7 /* libopencv_imgproc.dylib */,
+				DA95A236157EDE0500B4EAD7 /* libopencv_video.dylib */,
+				DA95A1FC157ED30D00B4EAD7 /* libopencv_objdetect.dylib */,
+				DA95A1FA157ED30300B4EAD7 /* libopencv_core.dylib */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+		DA95A21D157EDA0A00B4EAD7 /* Optical Flow */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A24C157EE15000B4EAD7 /* Supporting Files */,
+				DA95A242157EE14A00B4EAD7 /* Optical Flow.xib */,
+				DA95A243157EE14A00B4EAD7 /* OpticalFlowAppDelegate.h */,
+				DA95A244157EE14A00B4EAD7 /* OpticalFlowAppDelegate.m */,
+				DA95A245157EE14A00B4EAD7 /* TrackMovement.h */,
+				DA95A246157EE14A00B4EAD7 /* TrackMovement.mm */,
+			);
+			name = "Optical Flow";
+			sourceTree = "<group>";
+		};
+		DA95A24C157EE15000B4EAD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA95A23F157EE14A00B4EAD7 /* main.m */,
+				DA95A240157EE14A00B4EAD7 /* Optical Flow-Info.plist */,
+				DA95A241157EE14A00B4EAD7 /* Optical Flow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA95A1B1157ECDEA00B4EAD7 /* Optical Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA95A1D0157ECDEA00B4EAD7 /* Build configuration list for PBXNativeTarget "Optical Flow" */;
+			buildPhases = (
+				DA95A1AE157ECDEA00B4EAD7 /* Sources */,
+				DA95A1AF157ECDEA00B4EAD7 /* Frameworks */,
+				DA95A1B0157ECDEA00B4EAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Optical Flow";
+			productName = "Face Camera";
+			productReference = DA95A1B2157ECDEA00B4EAD7 /* Optical Flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA95A1A9157ECDEA00B4EAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MovementHeatmap;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DA95A1AC157ECDEA00B4EAD7 /* Build configuration list for PBXProject "Optical Flow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA95A1A7157ECDEA00B4EAD7;
+			productRefGroup = DA95A1B3157ECDEA00B4EAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA95A1B1157ECDEA00B4EAD7 /* Optical Flow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA95A1B0157ECDEA00B4EAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A249157EE14A00B4EAD7 /* Optical Flow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA95A1AE157ECDEA00B4EAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95A1E2157ECED500B4EAD7 /* iOSCameraViewerAppDelegate.m in Sources */,
+				DA95A1E4157ECED500B4EAD7 /* iOSCameraView.m in Sources */,
+				DA95A1E7157ECEFE00B4EAD7 /* GCDAsyncSocket.m in Sources */,
+				DA95A247157EE14A00B4EAD7 /* main.m in Sources */,
+				DA95A24A157EE14A00B4EAD7 /* OpticalFlowAppDelegate.m in Sources */,
+				DA95A24B157EE14A00B4EAD7 /* TrackMovement.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA95A1CE157ECDEA00B4EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA95A1CF157ECDEA00B4EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA95A1D1157ECDEA00B4EAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Optical Flow/Optical Flow-Prefix.pch";
+				INFOPLIST_FILE = "Optical Flow/Optical Flow-Info.plist";
+				PRODUCT_NAME = "Optical Flow";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA95A1D2157ECDEA00B4EAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Optical Flow/Optical Flow-Prefix.pch";
+				INFOPLIST_FILE = "Optical Flow/Optical Flow-Info.plist";
+				PRODUCT_NAME = "Optical Flow";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA95A1AC157ECDEA00B4EAD7 /* Build configuration list for PBXProject "Optical Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95A1CE157ECDEA00B4EAD7 /* Debug */,
+				DA95A1CF157ECDEA00B4EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA95A1D0157ECDEA00B4EAD7 /* Build configuration list for PBXNativeTarget "Optical Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95A1D1157ECDEA00B4EAD7 /* Debug */,
+				DA95A1D2157ECDEA00B4EAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA95A1A9157ECDEA00B4EAD7 /* Project object */;
+}
